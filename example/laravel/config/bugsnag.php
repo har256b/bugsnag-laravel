@@ -46,7 +46,7 @@ return [
     | Set to true to send the errors through to Bugsnag when the PHP process
     | shuts down, in order to prevent your app waiting on HTTP requests.
     |
-    | Setting this to false will mean the we send an HTTP request straight away
+    | Setting this to false will mean we send an HTTP request straight away
     | for each error.
     |
     */
@@ -72,7 +72,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | Use this if you want to ensure you don't send sensitive data such as
-    | passwords, and credit card numbers to our servers. Any keys which
+    | passwords and credit card numbers to our servers. Any keys which
     | contain these strings will be filtered.
     |
     */
